@@ -46,7 +46,7 @@ public class OrganizationType extends LandingPageType {
 				userOrganizations.get(0).getGroup().getFriendlyURL();
 
 			organizationPath =
-				CustomLandingPageUtil.getLanguage(currentUser, includeLanguage) +
+				CustomLandingPageUtil.getLanguage(request) +
 					PortalUtil.getPathFriendlyURLPublic() +
 					organizationFriendlyURL;
 		}

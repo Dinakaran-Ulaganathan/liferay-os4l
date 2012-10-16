@@ -46,7 +46,7 @@ public class SiteType extends LandingPageType {
 			// first site from list
 			String siteFriendlyURL = userSites.get(0).getFriendlyURL();
 			sitePath =
-				CustomLandingPageUtil.getLanguage(currentUser, includeLanguage) +
+				CustomLandingPageUtil.getLanguage(request) +
 					PortalUtil.getPathFriendlyURLPublic() + siteFriendlyURL;
 		}
 		return sitePath;
