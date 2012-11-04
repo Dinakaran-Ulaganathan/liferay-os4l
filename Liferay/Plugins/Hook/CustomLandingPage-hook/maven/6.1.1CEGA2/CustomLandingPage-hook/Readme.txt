@@ -22,4 +22,12 @@ https://github.com/OSPL/liferay-ospl/tree/master/Liferay/Plugins/Hook/CustomLand
 
 Both Ant & Maven based source code is available in Git.
 
+Packaged War can be download from either
+
+- https://github.com/OSPL/liferay-ospl/blob/master/Liferay/Plugins/Hook/CustomLandingPage-hook/ant/6.1.1CEGA2/Package/CustomLandingPage-hook-6.1.1.1.war?raw=true
+OR
+- https://github.com/OSPL/liferay-ospl/blob/master/Liferay/Plugins/Hook/CustomLandingPage-hook/maven/6.1.1CEGA2/CustomLandingPage-hook/Package/CustomLandingPage-hook-1.0.0.war?raw=true
+
+
+
 Have a happy Custom Landing !!! :)
