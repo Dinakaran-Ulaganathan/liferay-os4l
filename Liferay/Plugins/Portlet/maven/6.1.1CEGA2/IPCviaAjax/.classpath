@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+  <classpathentry kind="src" path="src/main/java" including="**/*.java"/>
+  <classpathentry kind="src" path="src/main/resources" excluding="**/*.java"/>
+  <classpathentry kind="output" path="target/classes"/>
+  <classpathentry kind="var" path="M2_REPO/javax/portlet/portlet-api/2.0/portlet-api-2.0.jar"/>
+  <classpathentry kind="var" path="M2_REPO/javax/servlet/servlet-api/2.4/servlet-api-2.4.jar"/>
+  <classpathentry kind="var" path="M2_REPO/javax/servlet/jsp/jsp-api/2.0/jsp-api-2.0.jar"/>
+  <classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+  <classpathentry kind="var" path="M2_REPO/com/liferay/portal/portal-service/6.1.1/portal-service-6.1.1.jar" sourcepath="M2_REPO/com/liferay/portal/portal-service/6.1.1/portal-service-6.1.1-sources.jar">
+    <attributes>
+      <attribute value="jar:file:/C:/Documents%20and%20Settings/tejas.kanani/.m2/repository/com/liferay/portal/portal-service/6.1.1/portal-service-6.1.1-javadoc.jar!/" name="javadoc_location"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry kind="var" path="M2_REPO/com/liferay/portal/util-bridges/6.1.1/util-bridges-6.1.1.jar" sourcepath="M2_REPO/com/liferay/portal/util-bridges/6.1.1/util-bridges-6.1.1-sources.jar">
+    <attributes>
+      <attribute value="jar:file:/C:/Documents%20and%20Settings/tejas.kanani/.m2/repository/com/liferay/portal/util-bridges/6.1.1/util-bridges-6.1.1-javadoc.jar!/" name="javadoc_location"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry kind="var" path="M2_REPO/com/liferay/portal/util-taglib/6.1.1/util-taglib-6.1.1.jar" sourcepath="M2_REPO/com/liferay/portal/util-taglib/6.1.1/util-taglib-6.1.1-sources.jar">
+    <attributes>
+      <attribute value="jar:file:/C:/Documents%20and%20Settings/tejas.kanani/.m2/repository/com/liferay/portal/util-taglib/6.1.1/util-taglib-6.1.1-javadoc.jar!/" name="javadoc_location"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry kind="var" path="M2_REPO/com/liferay/portal/util-java/6.1.1/util-java-6.1.1.jar" sourcepath="M2_REPO/com/liferay/portal/util-java/6.1.1/util-java-6.1.1-sources.jar">
+    <attributes>
+      <attribute value="jar:file:/C:/Documents%20and%20Settings/tejas.kanani/.m2/repository/com/liferay/portal/util-java/6.1.1/util-java-6.1.1-javadoc.jar!/" name="javadoc_location"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry kind="var" path="M2_REPO/org/codehaus/jackson/jackson-mapper-asl/1.8.3/jackson-mapper-asl-1.8.3.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/codehaus/jackson/jackson-core-asl/1.8.3/jackson-core-asl-1.8.3.jar"/>
+  <classpathentry kind="var" path="M2_REPO/com/hersheys/dev.tools.environment/1.1.5/dev.tools.environment-1.1.5.jar" sourcepath="M2_REPO/com/hersheys/dev.tools.environment/1.1.5/dev.tools.environment-1.1.5-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar"/>
+  <classpathentry kind="var" path="M2_REPO/log4j/log4j/1.2.15/log4j-1.2.15.jar"/>
+  <classpathentry kind="var" path="M2_REPO/commons-lang/commons-lang/2.5/commons-lang-2.5.jar"/>
+</classpath>
