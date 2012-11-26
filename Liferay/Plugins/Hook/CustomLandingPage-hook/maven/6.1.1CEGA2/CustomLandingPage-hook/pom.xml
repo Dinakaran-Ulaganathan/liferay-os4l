@@ -73,7 +73,7 @@
 		</dependency>
 	</dependencies>
 	<properties>
-		<liferay.auto.deploy.dir>D:/Liferay/Liferay611CEGA2/runtimes/liferay-portal-6.1.1-ce-ga2/deploy</liferay.auto.deploy.dir>
+		<liferay.auto.deploy.dir>target</liferay.auto.deploy.dir>
 		<liferay.version>6.1.1</liferay.version>
 	</properties>
 </project>
