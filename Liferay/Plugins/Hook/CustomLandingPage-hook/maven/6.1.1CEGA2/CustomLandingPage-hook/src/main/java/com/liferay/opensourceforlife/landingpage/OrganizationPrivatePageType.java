@@ -1,5 +1,5 @@
 /**
- * Returns custom landing path for organization which user belongs to
+ * Returns custom landing path for organization's Private default page which user belongs to
  */
 
 package com.liferay.opensourceforlife.landingpage;
@@ -19,18 +19,15 @@ import com.liferay.portal.util.PortalUtil;
 /**
  * @author tejas.kanani
  */
-public class OrganizationType extends LandingPageType {
+public class OrganizationPrivatePageType extends LandingPageType {
 
 	/*
 	 * (non-Javadoc)
-	 * @see
-	 * com.liferay.opensourceforlife.landingpage.LandingPageType#getLandingPagePath
-	 * (javax.portlet.PortletRequest)
+	 * @see com.liferay.opensourceforlife.landingpage.LandingPageType#getLandingPagePath (javax.portlet.PortletRequest)
 	 */
 	@Override
-	public String getLandingPagePath(
-		HttpServletRequest request, boolean includeLanguage)
-		throws PortalException, SystemException {
+	public String getLandingPagePath(final HttpServletRequest request)
+			throws PortalException, SystemException {
 
 		String organizationPath = StringPool.BLANK;
 
@@ -42,13 +39,12 @@ public class OrganizationType extends LandingPageType {
 
 			// If user is member of more than one organization then it will take
 			// first organization from list
-			String organizationFriendlyURL =
-				userOrganizations.get(0).getGroup().getFriendlyURL();
+			String organizationFriendlyURL = userOrganizations.get(0)
+					.getGroup().getFriendlyURL();
 
-			organizationPath =
-				CustomLandingPageUtil.getLanguage(request) +
-					PortalUtil.getPathFriendlyURLPublic() +
-					organizationFriendlyURL;
+			organizationPath = CustomLandingPageUtil.getLanguage(request)
+					+ PortalUtil.getPathFriendlyURLPrivateGroup()
+					+ organizationFriendlyURL;
 		}
 
 		return organizationPath;
