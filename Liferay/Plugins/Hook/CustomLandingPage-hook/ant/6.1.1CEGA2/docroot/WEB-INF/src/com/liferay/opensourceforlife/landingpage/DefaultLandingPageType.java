@@ -15,13 +15,10 @@ public class DefaultLandingPageType extends LandingPageType {
 
 	/*
 	 * (non-Javadoc)
-	 * @see
-	 * com.liferay.opensourceforlife.landingpage.LandingPageType#getLandingPagePath
-	 * (javax.portlet.PortletRequest)
+	 * @see com.liferay.opensourceforlife.landingpage.LandingPageType#getLandingPagePath (javax.portlet.PortletRequest)
 	 */
 	@Override
-	public String getLandingPagePath(
-		HttpServletRequest request, boolean includeLanguage) {
+	public String getLandingPagePath(final HttpServletRequest request) {
 
 		return StringPool.BLANK;
 	}

@@ -14,7 +14,6 @@ import com.liferay.portal.kernel.exception.SystemException;
  */
 public abstract class LandingPageType {
 
-	public abstract String getLandingPagePath(
-		HttpServletRequest request, boolean includeLanguage)
-		throws PortalException, SystemException;
+	public abstract String getLandingPagePath(HttpServletRequest request)
+			throws PortalException, SystemException;
 }

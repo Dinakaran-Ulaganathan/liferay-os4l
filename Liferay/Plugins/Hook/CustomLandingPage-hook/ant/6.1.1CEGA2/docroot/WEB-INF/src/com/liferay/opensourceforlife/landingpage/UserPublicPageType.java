@@ -20,22 +20,19 @@ public class UserPublicPageType extends LandingPageType {
 
 	/*
 	 * (non-Javadoc)
-	 * @see
-	 * com.liferay.opensourceforlife.landingpage.LandingPageType#getLandingPagePath
-	 * (javax.portlet.PortletRequest)
+	 * @see com.liferay.opensourceforlife.landingpage.LandingPageType#getLandingPagePath (javax.portlet.PortletRequest)
 	 */
 	@Override
-	public String getLandingPagePath(
-		HttpServletRequest request, boolean includeLanguage)
-		throws PortalException, SystemException {
+	public String getLandingPagePath(final HttpServletRequest request)
+			throws PortalException, SystemException {
 
 		String userPublicPagePath = StringPool.BLANK;
 
 		User currentUser = PortalUtil.getUser(request);
 
 		if (currentUser.hasPrivateLayouts()) {
-			userPublicPagePath =
-				CustomLandingPageUtil.getDisplayURL(request, false);
+			userPublicPagePath = CustomLandingPageUtil.getDisplayURL(request,
+					false);
 		}
 		return userPublicPagePath;
 	}
